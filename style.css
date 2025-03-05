@@ -1,0 +1,141 @@
+/* Reset básico para remover margens e paddings padrões */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+/* Container principal */
+#page {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do primeiro parágrafo (SUA PRÓXIMA VIAGEM:) */
+#introducao p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #E1624F;
+}
+
+/* Título principal (Conheça Busan) */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B;
+  margin-bottom: 15px;
+}
+
+/* Título "Descubra 3 destinos imperdíveis em Busan" com efeito de sombra */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1B1B1B;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos dos destinos turísticos */
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1B1B1B;
+  margin-top: 30px;
+}
+
+/* Subtítulo "PARA OS AMANTES DE HISTÓRIA" */
+.subtitulo {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #E1624F;
+  margin-top: 20px;
+}
+
+/* Imagens dentro das seções */
+section img {
+  width: 100%;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+/* Texto geral dentro das seções */
+section p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+/* Destino turístico */
+.destino {
+  margin-bottom: 40px;
+}
+
+/* Estilização da lista de categorias */
+.categorias {
+  list-style-type: disc;
+  padding-left: 25px;
+  margin-top: 10px;
+}
+
+.categorias li {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Cores específicas para cada item */
+.historia {
+  color: #0C51A7;
+}
+
+.casais {
+  color: #591B98;
+}
+
+.familias {
+  color: #E5245E;
+}
+
+.orcamento {
+  color: #E95E10;
+}
+
+/* Seção de conclusão */
+#conclusao {
+  text-align: center;
+  padding: 40px 0;
+}
+
+#conclusao p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  margin-top: 30px;
+}
+
+/* Ícone do coração no rodapé */
+footer img {
+  width: 14px;
+  vertical-align: middle;
+}
